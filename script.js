@@ -6,7 +6,7 @@ class Animal {
         return this.species;
     }
     makeSound(){
-        if(this._species.toLowerCase() === 'dog'){
+        if(this.constructor.name === 'Dog'){
             this.bark();
         }else{
             this.purr();
